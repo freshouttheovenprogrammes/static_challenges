@@ -1,0 +1,33 @@
+.header, .navigation_parent, .footer {
+  color: white;
+}
+
+img {
+  width: 100px;
+  }
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: darkred;
+}
+
+.text {
+  font-size: 25px;
+}
+
+.navigation_parent {
+  display: flex;
+  justify-content: flex-end;
+  background-color: darkgrey;
+}
+
+.white_space {
+  display: flex;
+  background-color: white;
+}
+
+.footer {
+  background-color: darkgrey;
+}
