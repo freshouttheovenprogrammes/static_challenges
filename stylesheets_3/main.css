@@ -1,5 +1,13 @@
-.background_img {
-  width: 100%
+.background {
+  background-image: url("/Users/zacharypalmquist/turing/2module/prework/static_challenges/images/1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.join_img {
+  width: 30%;
+  border: 10px;
+  border-color: gold;
 }
 
 h1 {
@@ -26,15 +34,18 @@ h6 {
   color: white;
 }
 
-.header {
-  
+.subheader {
+
 }
 
 .right_side {
   display: flex;
-  flex-direction: row
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 50%;
 }
 
 .background {
   background-color: black;
+  margin: 0;
 }
