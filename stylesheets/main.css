@@ -10,11 +10,12 @@ img {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: darkred;
+  background-color: #990000;
 }
 
-.text {
+.text_landmark {
   font-size: 25px;
+  font-weight: bold;
   padding: 15px;
 }
 
@@ -23,6 +24,7 @@ img {
   padding: 15px;
   margin-right: 15px;
   font-size: 14px;
+  font-weight: bold;
 }
 
 .login_text2 {
@@ -33,12 +35,8 @@ img {
 .navigation_parent {
   display: flex;
   justify-content: flex-end;
-  background-color: darkslategrey;
-  padding: 25px;
-}
-
-.nav-one {
-
+  background-color: #0c212a;
+  padding: 15px;
 }
 
 .join-nav {
@@ -52,16 +50,18 @@ img {
 }
 
 .right_side {
-  margin-left: 20px;
+  padding: 20px;
 }
 
 .join-img {
   width: 200px;
+  padding: 10px;
 }
 
 .text {
   font-size: 15px;
   font-weight: bold;
+  padding: 10px
 }
 
 .denver_art_museum_img {
@@ -85,5 +85,10 @@ img {
 }
 
 .footer {
-  background-color: darkslategrey;
+  background-color: #0c212a;
+}
+
+.footer_text {
+  padding: 20px;
+  font-size: 12px;
 }
