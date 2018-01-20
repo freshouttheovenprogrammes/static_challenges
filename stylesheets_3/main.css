@@ -2,67 +2,96 @@
   background-image: url("../images/1.jpg");
   background-size: 100%;
   height: 100%;
+  background-repeat: no-repeat;
 }
 
 .join_img {
-  width: 30%;
-  border: 10px;
-  border-color: gold;
+  display: flex;
+  justify-content: space-around;
+  width:  220px;
+  height: 150px;
+  background-repeat: no-repeat;
+  margin-left: 16px;
+}
+
+.join_text {
+  margin-left: 10px;
+  margin-bottom: 5px;
+  font-size: 9px;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   background-color: rgb(32,32,32);
   margin-top: auto;
-  padding: 20px;
+  padding: 13px;
+}
+
+#first_header_text {
+  font-size: 18px;
+}
+
+#login {
+  font-size: 10px;
+  padding: 5px;
+  margin-top: 3px;
 }
 
 .subheader {
   background-color: #9f4212;
   display: flex;
   justify-content: space-between;
+  height: 18px;
 }
 
 .subheader_text1 {
-  margin-left: 50px;
+  margin-left: 100px;
 }
 
 .subheader_text2 {
-  margin-right: 50px;
+  margin-right: 100px;
 }
 
 .all_sub_text {
-  padding: 7px;
+  padding: 4px;
   font-size: 10px;
 }
 
 h1 {
   color: white;
+  font-family: "Arial"
 }
 
 h2 {
   color: white;
+  font-family: "Arial"
 }
 
 h3 {
   color: white;
+  font-family: "Arial"
 }
 
 h4 {
   color: white;
+  font-family: "Arial"
 }
 
 h5 {
   color: white;
+  font-family: "Arial"
 }
 
 h6 {
   color: white;
+  font-family: "Arial"
 }
 
 p {
   color: white;
+  font-family: "Arial"
 }
 
 .trans_box {
@@ -90,4 +119,25 @@ p {
   margin: 0;
   display: flex;
   justify-content: flex-end;
+}
+
+.denver_font {
+  margin-bottom: 15px;
+  margin-left: 16px;
+  margin-top: 10px;
+  font-size: 10.5px;
+  font-weight: bold;
+}
+
+.lorem_text {
+  margin-left: 16px;
+  font-size: 9px;
+  margin-bottom: 25px;
+}
+
+.bottom_text {
+  margin-top: 370px;
+  font-size: 9px;
+  display: flex;
+  padding: 16px;
 }
