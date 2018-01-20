@@ -1,0 +1,44 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: rgb(32,32,32);
+}
+
+.head_1, .head_2 {
+  color: white;
+  height: 40px;
+}
+
+.head_1 {
+  font-family: "Arial", :sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.head_2_box {
+  background-color: green;
+  display: block
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: lightblue;
+  border-top: 1px;
+  border-top-color: red;
+  border-bottom: 1px;
+  border-bottom-color: red;
+}
+
+.nav_text {
+  color: white;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.section_1 {
+  background-image: image("images/1.jpg");
+}
